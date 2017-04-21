@@ -1,0 +1,4 @@
+services:
+  chapuzzo_notifications.notification_generator:
+      class: Chapuzzo\NotificationsBundle\Service\NotificationGenerator
+      arguments: ['%onesignal_api_key%', '%onesignal_app_id%', '%onesignal_user_auth_id%']
